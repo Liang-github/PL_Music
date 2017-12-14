@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCIconView.h"
+#import "SCLrcTableView.h"
 
-@interface MidView : UIScrollView
+@interface MidView : UIScrollView<UIScrollViewDelegate>
+
+@property (nonatomic, strong) SCIconView *midIconView;
+@property (nonatomic, strong) SCLrcTableView *midLrcView;
 
 @end

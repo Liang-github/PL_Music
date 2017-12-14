@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		760A82951FDF7432005A2B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A82941FDF7432005A2B63 /* AppDelegate.m */; };
-		760A82981FDF7432005A2B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A82971FDF7432005A2B63 /* ViewController.m */; };
 		760A829B1FDF7432005A2B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760A82991FDF7432005A2B63 /* Main.storyboard */; };
 		760A82A01FDF7432005A2B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760A829E1FDF7432005A2B63 /* LaunchScreen.storyboard */; };
 		760A82A31FDF7432005A2B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 760A82A21FDF7432005A2B63 /* main.m */; };
@@ -34,6 +33,12 @@
 		76BF0E4D1FE0BA02001709C5 /* SCIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF0E4C1FE0BA02001709C5 /* SCIconView.m */; };
 		76BF0E501FE0BD99001709C5 /* SimpleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF0E4F1FE0BD99001709C5 /* SimpleControlView.m */; };
 		76BF0E531FE0C3A9001709C5 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF0E521FE0C3A9001709C5 /* TopView.m */; };
+		76BF0E561FE125E4001709C5 /* SCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF0E551FE125E4001709C5 /* SCImageView.m */; };
+		76BF0E591FE1279C001709C5 /* TTTopChannelContianerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76BF0E581FE1279C001709C5 /* TTTopChannelContianerView.m */; };
+		76E5D5661FE2094A003EE82E /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5D5651FE2094A003EE82E /* NavigationController.m */; };
+		76E5D5691FE20B25003EE82E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5D5681FE20B25003EE82E /* RootViewController.m */; };
+		76E5D56C1FE20B40003EE82E /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5D56B1FE20B40003EE82E /* ContentTableViewController.m */; };
+		76E5D56F1FE20B67003EE82E /* DetailControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5D56E1FE20B67003EE82E /* DetailControlViewController.m */; };
 		9CA1BB4A2DF273B92E286D0E /* libPods-PLMusicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E64175D675F3EF39E2F943C /* libPods-PLMusicTests.a */; };
 		9FD3C8C6D2720A2F8CF0F078 /* libPods-PLMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71F292843A80D644AA1D249 /* libPods-PLMusic.a */; };
 		BB26137DCED8D7FA73E3803D /* libPods-PLMusicUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 447491A79B8429682A8C4F6B /* libPods-PLMusicUITests.a */; };
@@ -67,8 +72,6 @@
 		760A82901FDF7432005A2B63 /* PLMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		760A82931FDF7432005A2B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		760A82941FDF7432005A2B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		760A82961FDF7432005A2B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		760A82971FDF7432005A2B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		760A829A1FDF7432005A2B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		760A829F1FDF7432005A2B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760A82A11FDF7432005A2B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +120,18 @@
 		76BF0E4F1FE0BD99001709C5 /* SimpleControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleControlView.m; sourceTree = "<group>"; };
 		76BF0E511FE0C3A9001709C5 /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
 		76BF0E521FE0C3A9001709C5 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		76BF0E541FE125E4001709C5 /* SCImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCImageView.h; sourceTree = "<group>"; };
+		76BF0E551FE125E4001709C5 /* SCImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCImageView.m; sourceTree = "<group>"; };
+		76BF0E571FE1279C001709C5 /* TTTopChannelContianerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTopChannelContianerView.h; sourceTree = "<group>"; };
+		76BF0E581FE1279C001709C5 /* TTTopChannelContianerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTopChannelContianerView.m; sourceTree = "<group>"; };
+		76E5D5641FE2094A003EE82E /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		76E5D5651FE2094A003EE82E /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		76E5D5671FE20B25003EE82E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		76E5D5681FE20B25003EE82E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		76E5D56A1FE20B40003EE82E /* ContentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
+		76E5D56B1FE20B40003EE82E /* ContentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
+		76E5D56D1FE20B67003EE82E /* DetailControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailControlViewController.h; sourceTree = "<group>"; };
+		76E5D56E1FE20B67003EE82E /* DetailControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailControlViewController.m; sourceTree = "<group>"; };
 		C5EC6ABA059D4712F3806CB1 /* Pods-PLMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLMusicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLMusicUITests/Pods-PLMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E71F292843A80D644AA1D249 /* libPods-PLMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PLMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -185,10 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				760A82CA1FDF75AC005A2B63 /* Classes */,
-				760A82931FDF7432005A2B63 /* AppDelegate.h */,
-				760A82941FDF7432005A2B63 /* AppDelegate.m */,
-				760A82961FDF7432005A2B63 /* ViewController.h */,
-				760A82971FDF7432005A2B63 /* ViewController.m */,
 				760A82C91FDF74F8005A2B63 /* Resources */,
 			);
 			path = PLMusic;
@@ -244,6 +255,8 @@
 				760A82E11FDF9DF6005A2B63 /* SimpleControlView */,
 				760A82E01FDF9DEC005A2B63 /* DetailControlView */,
 				760A82DF1FDF9DE1005A2B63 /* SongListView */,
+				76BF0E571FE1279C001709C5 /* TTTopChannelContianerView.h */,
+				76BF0E581FE1279C001709C5 /* TTTopChannelContianerView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +281,16 @@
 		760A82CD1FDF75CB005A2B63 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				760A82931FDF7432005A2B63 /* AppDelegate.h */,
+				760A82941FDF7432005A2B63 /* AppDelegate.m */,
+				76E5D5641FE2094A003EE82E /* NavigationController.h */,
+				76E5D5651FE2094A003EE82E /* NavigationController.m */,
+				76E5D5671FE20B25003EE82E /* RootViewController.h */,
+				76E5D5681FE20B25003EE82E /* RootViewController.m */,
+				76E5D56A1FE20B40003EE82E /* ContentTableViewController.h */,
+				76E5D56B1FE20B40003EE82E /* ContentTableViewController.m */,
+				76E5D56D1FE20B67003EE82E /* DetailControlViewController.h */,
+				76E5D56E1FE20B67003EE82E /* DetailControlViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -327,6 +350,8 @@
 		760A82E21FDF9E05005A2B63 /* SCImageView */ = {
 			isa = PBXGroup;
 			children = (
+				76BF0E541FE125E4001709C5 /* SCImageView.h */,
+				76BF0E551FE125E4001709C5 /* SCImageView.m */,
 			);
 			path = SCImageView;
 			sourceTree = "<group>";
@@ -670,14 +695,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E5D56C1FE20B40003EE82E /* ContentTableViewController.m in Sources */,
 				76BF0E531FE0C3A9001709C5 /* TopView.m in Sources */,
 				760A82D81FDF7815005A2B63 /* OMArtistInfo.m in Sources */,
+				76E5D5691FE20B25003EE82E /* RootViewController.m in Sources */,
 				760A82DE1FDF9D69005A2B63 /* Const.m in Sources */,
-				760A82981FDF7432005A2B63 /* ViewController.m in Sources */,
+				76BF0E591FE1279C001709C5 /* TTTopChannelContianerView.m in Sources */,
 				760A82DB1FDF78B2005A2B63 /* OMSongInfo.m in Sources */,
 				76BF0E4D1FE0BA02001709C5 /* SCIconView.m in Sources */,
 				760A82F41FDF9FE0005A2B63 /* MusicPlayerManager.m in Sources */,
 				760A82D21FDF769A005A2B63 /* OMAlbumInfo.m in Sources */,
+				76E5D5661FE2094A003EE82E /* NavigationController.m in Sources */,
+				76BF0E561FE125E4001709C5 /* SCImageView.m in Sources */,
 				760A82F11FDF9FC9005A2B63 /* MusicDownloader.m in Sources */,
 				76BF0E501FE0BD99001709C5 /* SimpleControlView.m in Sources */,
 				760A82D51FDF76FE005A2B63 /* OMHotSongInfo.m in Sources */,
@@ -689,6 +718,7 @@
 				760A82A31FDF7432005A2B63 /* main.m in Sources */,
 				760A82E51FDF9E7F005A2B63 /* SongListTableView.m in Sources */,
 				760A82951FDF7432005A2B63 /* AppDelegate.m in Sources */,
+				76E5D56F1FE20B67003EE82E /* DetailControlViewController.m in Sources */,
 				760A82EB1FDF9F6F005A2B63 /* SongListTopView.m in Sources */,
 				760A82EE1FDF9F82005A2B63 /* SongListView.m in Sources */,
 			);
@@ -856,7 +886,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/PLMusic/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanjingpinjia.PLMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -871,7 +901,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/PLMusic/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanjingpinjia.PLMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";

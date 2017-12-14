@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SCImageView.h"
 
 @interface SCIconView : UIView
 
-- (void)startRotating;
-- (void)stopRotating;
-- (void)resumeRotate;
+@property (nonatomic, strong) SCImageView *imageView;
+
+- (void)setAlbumImage:(UIImage *)image;
 
 @end
